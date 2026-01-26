@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Ordering Form</title>
+</head>
+<body>
+    <!--Border = 1 to create the border-->
+    <form>
+        <h2>Contact Information</h2>
+
+        <label for="inName">Name</label>
+        <input type="text" name="inName" id="inName" required>
+        <br>
+
+        <label for="inName">Phone</label>
+        <input type="phone" name="inName" id="inName" required>
+        <br>
+
+        <label for="inName">Email</label>
+        <input type="email" name="inName" id="inName" required>
+        <br>
+
+        <h2>Select Pizza Size</h2>
+        <select name="Pizza Size:">
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XLarge</option>
+        </select>
+        <br>
+
+
+        <h2>Select Sauce</h2>
+        <input type="radio" name="sauce" required><label>Marinara</label>
+        <br>
+        <input type="radio" name="sauce" required><label>Ranch</label>
+        <br>
+        <input type="radio" name="sauce" required><label>No Sauce</label>
+        <br>
+
+
+        <h2>Select Toppings</h2>
+
+        <input type="checkbox" name="toppings"><label>Pepperoni</label>
+        <input type="checkbox" name="toppings"><label>Sausage</label>
+        <br>
+        <input type="checkbox" name="toppings"><label>Mushroom</label>
+        <input type="checkbox" name="toppings"><label>Pineapple</label>
+        <br>
+        <input type="checkbox" name="toppings"><label>Peppers</label>
+        <input type="checkbox" name="toppings"><label>Onions</label>
+        <br>
+
+
+        <h2>Additional Instructions</h2>
+        <textarea name="instructions">Add instructions</textarea>
+        <br>
+
+        <button type="Submit">Submit</button>
+
+
+        <h4>List of My Favorite Games</h4>
+        <table border="1">
+            <tr>
+                <th>Developer</th>
+                <th>Title</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>Bethesda</td>
+                <td>Fallout 4</td>
+                <td>2015</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Valve</td>
+                <td>CS:GO</td>
+                <td>2012</td>
+            </tr>
+
+            <tr>
+                <td>CS2</td>
+                <td>2023</td>
+            </tr>
+
+            <tr>
+                <td>Facepunch</td>
+                <td>Rust</td>
+                <td>2013</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Count: 4</td>
+            </tr>
+
+        </table>
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
