@@ -6,7 +6,7 @@
     <title>Pizza Ordering Form</title>
 </head>
 <body>
-    <!--Border = 1 to create the border-->
+    <h1>Pizza Ordering Form</h1>>
     <form>
         <h2>Contact Information</h2>
 
@@ -15,7 +15,7 @@
         <br>
 
         <label for="inPhone">Phone</label>
-        <input type="number" name="inPhone" id="inPhone" required>
+        <input type="tel" name="inPhone" id="inPhone" required>
         <br>
 
         <label for="inEmail">Email</label>
@@ -23,7 +23,9 @@
         <br>
 
         <h2>Select Pizza Size</h2>
-        <select name="Pizza Size:">
+        <select name="Pizza Size:" required>
+            <option value="">--Select Size--</option>
+
             <option>Medium</option>
             <option>Large</option>
             <option>XLarge</option>
